@@ -1,0 +1,26 @@
+/*
+Author: Justin Nichols
+Class: CSC337 (Web Development)
+Purpose: This page adds style to the oblivion.html page.
+*/
+
+body, h1 {
+	margin: 0;	
+	padding: 0;
+}
+
+header, footer {
+	background-color: gray;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#featured {
+	display: block;
+	margin: 50px auto 50px auto;
+}
