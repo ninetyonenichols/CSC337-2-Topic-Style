@@ -4,7 +4,7 @@ Class: CSC337 (Web Development)
 Purpose: This page adds style to the oblivion.html page.
 */
 
-body, h1 {
+body, h1, h2 {
 	margin: 0;	
 	padding: 0;
 }
@@ -15,12 +15,54 @@ header, footer {
 }
 
 footer {
-	position: fixed;
 	bottom: 0;
+	height: 60px;
 	width: 100%;
+}
+
+nav {
+	text-align: center;
+	background-color: green;
+}
+
+p {
+	width: 750px;
+	margin: 25px auto;
+}
+
+table {
+	width: 1000px;
+	margin: 25px auto;
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 15px;
+}
+
+#content {
+	margin: 0 auto;
+}
+
+#row-package {
+	width=25%;
+}
+
+#row-description {
+	width=50%;
+}
+
+#row-price {
+	width=25%;
 }
 
 #featured {
 	display: block;
-	margin: 50px auto 50px auto;
+	margin: 25px auto;
+	width: 750px;
+}
+
+#bottom-nav {
+	bottom: 60px;
+	width: 100%;
 }
