@@ -4,14 +4,21 @@ Class: CSC337 (Web Development)
 Purpose: This page adds style to the oblivion.html page.
 */
 
-body, h1, h2 {
+body, nav > ul, nav > ul > li {
 	margin: 0;	
 	padding: 0;
 }
 
 header, footer {
-	background-color: gray;
+	background-color: Black;
 	text-align: center;
+}
+
+header {
+	background-image: url(../img/oblivion/oblivion_plane_cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 footer {
@@ -22,7 +29,39 @@ footer {
 
 nav {
 	text-align: center;
-	background-color: green;
+	background-color: Red;
+}
+
+nav > ul {
+	list-style: none;
+	padding: 15px;
+}
+
+nav > ul > li {
+	display: inline;
+	padding: 15px;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 15px;
+	color: white;
+}
+
+h1 {
+	font-family: copperplate, serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: trattatello, serif;
+	font-size: 40px;
+}
+
+a, p, tr, td {
+	font-family: "Trebuchet MS", serif;
+	font-size: 20px;
+	color: white;
 }
 
 p {
@@ -30,10 +69,14 @@ p {
 	margin: 25px auto;
 }
 
+table, th, td {
+	border: 1px solid white;
+}
+
 table {
 	width: 1000px;
 	margin: 25px auto;
-	border: 1px solid black;
+	border-collapse: collapse;
 }
 
 th, td {
@@ -42,6 +85,8 @@ th, td {
 
 #content {
 	margin: 0 auto;
+	padding: 20px;
+	background-color: black;
 }
 
 #row-package {
@@ -58,8 +103,10 @@ th, td {
 
 #featured {
 	display: block;
-	margin: 25px auto;
+	margin: 0 auto;
 	width: 750px;
+	border-radius: 15px;
+	border: 10px solid Red;
 }
 
 #bottom-nav {
