@@ -1,0 +1,104 @@
+/*
+Author: Justin Nichols
+Class: CSC337 (Web Development)
+Purpose: This file contains CSS that is common to both index.html and 
+	 oblivion.html.
+*/
+
+body, nav > ul, nav > ul > li {
+	margin: 0;	
+	padding: 0;
+}
+
+header, footer {
+	text-align: center;
+}
+
+header {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+}
+
+nav > ul {
+	list-style: none;
+	padding: 15px;
+}
+
+nav > ul > li {
+	display: inline;
+	padding: 15px;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 15px;
+}
+
+h1 {
+	font-family: copperplate, serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+a, p, tr, td {
+	font-family: "Trebuchet MS", serif;
+	font-size: 20px;
+}
+
+p {
+	width: 750px;
+	margin: 25px auto;
+}
+
+table {
+	width: 1000px;
+	margin: 25px auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+}
+
+#content {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#row-package {
+	width=25%;
+}
+
+#row-description {
+	width=50%;
+}
+
+#row-price {
+	width=25%;
+}
+
+#featured {
+	display: block;
+	margin: 0 auto;
+	width: 750px;
+	border-radius: 15px;
+}
+
+#bottom-nav {
+	bottom: 60px;
+	width: 100%;
+}
