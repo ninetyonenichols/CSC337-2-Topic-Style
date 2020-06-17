@@ -5,37 +5,37 @@ Purpose: This file contains CSS that is specific to index.html.
 */
 
 header, footer {
-	background-color: black;	
+    background-color: black;    
 }
 
 header {
-	background-image: url(../img/skyrim/skyrim_cover.jpg);
+    background-image: url(../img/skyrim/skyrim_cover.jpg);
 }
 
 nav {
-	background-color: gray;
+    background-color: gray;
 }
 
 h1, h2 {
-	color: white;
+    color: white;
 }
 
 h2 {
-	font-family: trattatello, serif;
+    font-family: trattatello, serif;
 }
 
 a, p, tr, td {
-	color: white;
+    color: white;
 }
 
 table, th, td {
-	border: 1px solid white;
+    border: 1px solid white;
 }
 
 #content {
-	background-color: black;
+    background-color: black;
 }
 
 #featured {
-	border: 10px solid gray;
+    border: 10px solid gray;
 }
