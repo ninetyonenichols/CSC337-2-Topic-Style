@@ -5,7 +5,7 @@ Purpose: This file contains CSS that is specific to oblivion.html.
 */
 
 header, footer {
-	background-color: Black;	
+	background-color: black;	
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-	background-color: Red;
+	background-color: red;
 }
 
 h1, h2 {
