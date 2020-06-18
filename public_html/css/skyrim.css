@@ -29,7 +29,7 @@ a, p, tr, td {
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px ridge white;
 }
 
 #content {
